@@ -1,0 +1,191 @@
+body{
+			background-color:#2D2D2D;
+		}
+
+  		.absolute{
+  			position:absolute;
+  			left:0;
+  			right:0;
+  			top:0;
+  			bottom:0;
+  			margin:auto;
+  			display:table;
+  			width: 100%;
+  		}
+
+
+  		@-moz-document url-prefix() {
+		  .absolute{
+		    top:26%;
+
+			}
+	}	
+
+  		.green{
+  			color:#6EC39A;
+  			transition:color 0.5s
+  		}
+
+  		.orange{
+  			color:#F89D4B;
+  			transition:color 0.5s;
+  		}
+
+
+		.green:hover{
+			color:#5ba280;
+			transition:color 0.5s;
+		}
+
+		.orange:hover{
+			color:#b37339;
+			transition:color 0.5s;
+		}
+
+
+  		ul{
+            width: 57px;
+		    height: 49px;
+		    padding: 0;
+		    margin-top: 32px;
+  		}
+
+  		ul li {
+  			float: left;
+		    list-style: none;
+		    
+  		}
+
+  		ul li:not(:first-child){
+  			margin-left: 22px;
+  		}
+
+  		ul li i {
+  			font-size: 25px;
+  		}
+		
+		img#darwin-tortugas{
+			/*filter:drop-shadow(2px 1px 4px transparent);
+			transition: filter 1s;*/
+		}
+
+		.page-link:hover img#darwin-tortugas{
+			
+			/*filter:drop-shadow(2px 1px 4px #6EC39A);
+			transition: filter 1s;*/
+
+		}
+
+		img#darwin-san-isidro{
+			/*filter:drop-shadow(2px 1px 4px transparent);
+			transition: filter 1s;*/
+		}
+
+
+		.page-link:hover img#darwin-san-isidro{
+			
+			/*filter:drop-shadow(2px 1px 4px #F89D4B);
+			transition: filter 1s;*/
+
+		}
+
+	
+		i{
+			filter: invert(0%);
+			transition:filter 0.5s;
+		}
+		
+
+		#logo-gral{
+			width:16%
+		}
+		
+		
+		.logo-local{
+			width: 40%;
+		}
+		
+		.row-logo-gral{
+			margin-top: 200px;
+		}
+
+/**************************************MEDIA QUERYS**************************************************************/
+@media only screen and (min-width: 10px) and (max-width: 769px) {
+
+#logo-gral {
+    width: 61%;
+}
+.logo-local {
+    width: 57%;
+}
+
+ul {
+    margin-top: 23px;
+}
+
+.row-logo-gral{
+	margin-top: 100px;
+}
+
+
+.absolute {
+    top: 15%;
+    bottom: auto;
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 10px) and (max-width: 414px) {
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation:portrait) {
+
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 850px) and (orientation:landscape) {
+
+  .row-logo-gral {
+    margin-top: 80px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+#logo-gral{
+	width: auto;
+}
+
+.logo-local {
+    width: auto; 
+}
+
+
+ul {
+    width: 78px;
+}
+ul li i {
+    font-size: 40px;
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+	
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+
+	
+}
+
